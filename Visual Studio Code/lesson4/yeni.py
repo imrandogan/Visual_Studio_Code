@@ -55,6 +55,5 @@ if __name__ == "__main__":
     Form = QtWidgets.QWidget()
     ui = Ui_MainWindow()
     ui.setupUi(Form)
-    ui.retranslateUi(Form)
     Form.show()
     sys.exit(app.exec_())
