@@ -44,7 +44,7 @@ class Ui_MainWindow(object):
         #MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        #QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
